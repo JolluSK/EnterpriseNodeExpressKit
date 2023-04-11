@@ -1,0 +1,27 @@
+{
+  "name": "enterprise-node-express-kit",
+  "version": "1.0.0",
+  "description": "My Node.js Express application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.2",
+    "mongoose": "^6.2.2",
+    "morgan": "^2.0.12",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14",
+    "supertest": "^6.1.6",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb-base": "^16.0.0",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
